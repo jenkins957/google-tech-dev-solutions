@@ -32,7 +32,7 @@ def find_longest_subsequence(input_string, words):
 def is_subsequence(input_string, word):
     offset = 0
     for c in word:
-        offset = __find_position_first_occurrence(input_string, c, offset);
+        offset = __find_position_first_occurrence(input_string, c, offset)
         if offset == -1:
             return False
     return True
