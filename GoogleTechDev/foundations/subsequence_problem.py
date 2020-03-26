@@ -48,7 +48,7 @@ def __find_position_first_occurrence(input_string, c, offset=0):
 class SubsequenceProblemTests(unittest.TestCase):
     def test_should_find_longest_subsequence_from_list_if_words(self):
         words = ["able", "ale", "apple", "bale", "kangaroo"]
-        self.assertEquals('apple', find_longest_subsequence('abppplee', words))
+        self.assertEqual('apple', find_longest_subsequence('abppplee', words))
 
     def test_should_be_a_subsequence_of_input_string(self):
         self.assertTrue(is_subsequence('abppplee', 'apple'))
