@@ -17,5 +17,4 @@ public class BlackJack
 
         return Math.max( value1, value2 );
     }
-
 }
