@@ -8,8 +8,8 @@ import unittest
 
 def string_splosion(input_string):
     exploded_string = ''
-    for i in range(1, len(input_string) + 1):
-        exploded_string += input_string[:i]
+    for i in range(len(input_string)):
+        exploded_string += input_string[:i + 1]
 
     return exploded_string
 
