@@ -8,11 +8,6 @@ public class MakeBricks
             return false;
         }
 
-        if( goal % 5 > small )
-        {
-            return false;
-        }
-
-        return true;
+        return ( goal % 5 > small ) ? false : true;
     }
 }
